@@ -2,42 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.width-height{
-    width: 100%;
-  max-width: 944px;
-  height: 531px;
-}
-.hero-bg-image {
-  background-image: url("../public/assets/images/hero_bg.png");
-  width: 100%;
-  /* max-width: 944px; */
-  height: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.hero-after::after {
-  content: "";
+.hero-shape-after{
+  content: '';
   position: absolute;
-  background-image: url("../public/assets/images/shape_1_red.svg");
-  width: 179px;
-  height: 179px;
-  z-index: -1;
-  background-position: center;
+  background-image: url('../public/assets/images/shape_1_red.svg');
   background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+  width: 279px;
+  height: 279px;
+  top: -50px;
+  left: -50px;
 }
-/* @media (max-width: 768px) {
-  .hero-after::before {
-    content: "";
-    position: absolute;
-    background-image: url("../public/assets/images/shape_1_red.svg");
-    width: 112px;
-    height: 64px;
-    z-index: -1;
-    right: -30px;
-    bottom: -20px;
-  }
-} */
+.logo-cloud-bg{
+  background-image: url('../public/assets/images/line.svg') ;
+  width: 1440px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -3,25 +3,25 @@ import React from 'react'
 const Hero = () => {
     return (
         <>
-            <div className='bg-gray-900 w-full h-full flex flex-col items-center pb-20 sm:pb-28 md:pb-20 lg:pb-44 relative'>
-                <div className='max-w-3xl w-full pt-5 pb-2 px-6 md:px-0 z-10'>
-                    <h2 className='text-center text-white text-4xl md:text-6xl font-bold my-8 leading-snug'>A small business is only as good as its tools.</h2>
-                    <p className='text-gray-400 font-semibold px-5 text-xs md:text-base'>We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
-                    <div className='justify-center flex w-full mt-6'>
-                        <button className='mr-2 text-white bg-gray-700 px-3 py-2 rounded-md font-thin transform duration-200 hover:bg-gray-600'>Request a Demo</button>
-                        <button className='ml-2 text-white bg-green-500 px-3 py-2 rounded-md font-thin transform duration-200 hover:bg-green-600'>Sign Up</button>
+            <div className='bg-gray-900 p-5 pt-20 md:p-20'>
+                <div className='relative'>
+                    <div className='hero-shape-after'></div>
+                    <div className='bg-white w-full h-full p-5 md:p-14 rounded-2xl relative'>
+                        <h1 className='text-2xl sm:text-4xl md:text-6xl font-bold text-center max-w-2xl mx-auto leading-snug text-gray-800'>A small business is only as good as its tools. </h1>
+                        <p className='text-xs sm:text-sm md:text-base text-center max-w-2xl mx-auto mt-2 font-medium text-gray-500'>We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.</p>
+                        <div className='w-full h-full flex flex-col md:flex-row justify-center items-center mt-4'>
+                            <div className='w-72 mb-3 md:mb-0 md:w-80 sm:text-sm md:text-base flex justify-start pl-4 items-center bg-gray-400 py-3 text-gray-900 rounded-lg font-medium mr-3 cursor-pointer transform duration-200 hover:bg-gray-500'>
+                                <i className="fa-solid fa-envelope mr-2 mt-0.5"></i>
+                                <p>Enter your work email</p>
+                            </div>
+                            <div className='w-48 md:w-52 text-sm md:text-base bg-green-500 py-3 rounded-lg flex justify-center ml-3 font-medium text-gray-200 cursor-pointer transform duration-200 hover:bg-green-600'>
+                                <p>Get early access</p>
+                            </div>
+                        </div>
+                        <p className='text-xs md:text-base text-center mt-2 md:mt-1 text-gray-600 font-medium'>Start your free 14-day trial today, no credit card required.</p>
                     </div>
                 </div>
             </div>
-            <img className='text-green-500 w-full transform -translate-y-1' src="../assets/images/bg_wave.svg" alt="wave" />
-            <div className='w-full px-10 relative'>
-                <div className=' hero-after lg:after:-top-16 lg:after:-right-3 md:after:-top-8 after:right-0 after:top-20 relative width-height mx-auto transform -translate-y-60 sm:-translate-y-56 md:-translate-y-40 lg:-translate-y-64'>
-                <div className='hero-bg-image relative flex justify-center items-center mx-auto'>
-                    <img className='w-14 md:w-16 transform duration-300 hover:rotate-90 hover:scale-110 hover:shadow-md rounded-full hover:shadow-green-400 cursor-pointer' src="../assets/images/Play.svg" alt="play btn" />
-                </div>
-                </div>
-            </div>
-
         </>
     )
 }
