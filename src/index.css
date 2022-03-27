@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg-image {
+  background-image: url("../public/assets/images/hero_bg.png");
+  width: 100%;
+  max-width: 944px;
+  height: 531px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero-before::before {
+  content: "";
+  position: absolute;
+  background-image: url("../public/assets/images/wave_shape_green.svg");
+  width: 180px;
+  height: 80px;
+  z-index: 10;
+  top: -30px;
+  left: -50px;
+}
+@media (max-width: 768px) {
+  .hero-before::before {
+    content: "";
+    position: absolute;
+    background-image: url("../public/assets/images/wave_shape_green.svg");
+    width: 112px;
+    height: 64px;
+    z-index: 10;
+    top: -20px;
+    left: -30px;
+  }
+}
+.hero-after::after {
+  content: "";
+  position: absolute;
+  background-image: url("../public/assets/images/wave_shape_orange.svg");
+  width: 180px;
+  height: 80px;
+  z-index: -1;
+  right: -50px;
+  bottom: -30px;
+}
+@media (max-width: 768px) {
+  .hero-after::after {
+    content: "";
+    position: absolute;
+    background-image: url("../public/assets/images/wave_shape_orange.svg");
+    width: 112px;
+    height: 64px;
+    z-index: -1;
+    right: -30px;
+    bottom: -20px;
+  }
+}
