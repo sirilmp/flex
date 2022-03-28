@@ -50,10 +50,9 @@
 }
 .line-bg {
   background-image: url("../public/assets/images/line.svg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
   background-size: contain;
-  
 }
 .how_work_bg{
   background-image: url('../public/assets/images/how_work.png');

@@ -1,4 +1,5 @@
 import React from 'react'
+import Application from './components/Application'
 import CTA from './components/CTA'
 import Features from './components/Features'
 import Hero from './components/Hero'
@@ -15,6 +16,7 @@ const App = () => {
       <CTA />
       <Number/>
       <HowWork/>
+      <Application/>
     </>
   )
 }
