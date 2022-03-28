@@ -22,6 +22,29 @@
   bottom: -160px;
   right: -146px;
 }
+.cta-shape-1-before::before {
+  content: "";
+  position: absolute;
+  background-image: url("../public/assets/images/shape_1_orange.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 170px;
+  height: 170px;
+  top: -61px;
+  left: -74px;
+  z-index: 0;
+}
+.cta-shape-2-before::before {
+  content: "";
+  position: absolute;
+  background-image: url("../public/assets/images/shape_2_green.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 129px;
+  height: 100px;
+  top: 263px;
+  left: -58px;
+}
 .line-bg {
   background-image: url("../public/assets/images/line.svg");
   background-repeat: no-repeat;
