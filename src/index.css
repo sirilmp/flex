@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.z-999{
+  z-index: 9999;
+}
 .hero-shape-1-after::after {
   content: "";
   position: absolute;

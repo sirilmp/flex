@@ -26,7 +26,7 @@ const Nav = () => {
                 }
             </div>
             {
-                menuOpen && <div className={`overflow-y-scroll min-h-min md:hidden absolute h-full bg-gray-900 px-3 py-6 left-0 top-0 transform duration-1000 w-72 z-50 ${!menuOpen && '-translate-y-60 transform duration-1000'}`}>
+                menuOpen && <div className={`overflow-y-scroll min-h-min md:hidden absolute h-full bg-gray-900 px-3 py-6 left-0 top-0 transform duration-1000 w-72 z-999 ${!menuOpen && '-translate-y-60 transform duration-1000'}`}>
                     <div className='flex flex-col h-full justify-between'>
                         <div className='flex justify-between mb-5'>
                             <img src="../assets/images/Logo.svg" alt="" />
