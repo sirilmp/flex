@@ -52,5 +52,6 @@
   background-image: url("../public/assets/images/line.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  
 }

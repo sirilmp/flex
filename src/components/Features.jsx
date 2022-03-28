@@ -3,9 +3,9 @@ import React from 'react'
 const Features = () => {
     return (
         <div className='mx-auto py-32 px-5 lg:px-20'>
-            <h1 className='font-bold text-2xl text-center text-gray-900'>Gain more insight into how people use your</h1>
+            <h1 className='font-bold text-4xl text-center text-gray-900'>Gain more insight into how people use your</h1>
             <p className='max-w-2xl text-center font-medium mx-auto mt-2 text-gray-600'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
-            <div className='flex justify-center items-center md:items-stretch flex-col md:flex-row pt-16'>
+            <div className='flex justify-center items-center md:items-stretch flex-col md:flex-row pt-16 line-bg'>
                 {/* left side */}
                 <div className='flex flex-col justify-around'>
                     <div className='flex justify-center flex-col w-full max-w-xs items-center'>
