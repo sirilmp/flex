@@ -4,6 +4,7 @@ const Hero = () => {
     return (
         <>
             <div className='bg-gray-900 p-5 pt-40 pb-20 md:px-20 lg:px-20'>
+            <div className='bg-gray-900 p-5 pt-40 pb-20 md:px-20 lg:px-36'>
                 <div className='relative bg-white rounded-2xl overflow-hidden'>
                     <img src="../assets/images/shape_2_green.svg" className='w-32 h-12 absolute right-0 top-3' alt="shape" />
                     <img src="../assets/images/shape_2_blue.svg" className='w-32 h-12 absolute left-0 bottom-3' alt="shape" />
@@ -23,6 +24,7 @@ const Hero = () => {
                         <p className='text-xs md:text-sm text-center mt-2 md:mt-1 text-gray-600 font-medium'>Start your free 14-day trial today, no credit card required.</p>
                     </div>
                 </div>
+            </div>
             </div>
             <img src="../assets/images/bg_wave.svg" className='w-full transform -translate-y-1' alt="" />
         </>
