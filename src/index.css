@@ -55,3 +55,12 @@
   background-size: contain;
   
 }
+.how_work_bg{
+  background-image: url('../public/assets/images/how_work.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  max-width: 554px;
+  height: 312px;
+
+}
