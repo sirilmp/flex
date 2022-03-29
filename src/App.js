@@ -4,6 +4,7 @@ import CTA from './components/CTA'
 import Features from './components/Features'
 import Hero from './components/Hero'
 import HowWork from './components/HowWork'
+import LogoCloud from './components/LogoCloud'
 import Nav from './components/Nav'
 import Number from './components/Number'
 
@@ -17,6 +18,7 @@ const App = () => {
       <Number/>
       <HowWork/>
       <Application/>
+      <LogoCloud/>
     </>
   )
 }

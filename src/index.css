@@ -49,7 +49,13 @@
   left: -58px;
 }
 .line-bg {
-  background-image: url("../public/assets/images/line.svg");
+  background-image: url("../public/assets/images/line_light.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.line-bg-dark {
+  background-image: url("../public/assets/images/line_dark.svg");
   /* background-repeat: no-repeat; */
   background-position: center;
   background-size: contain;
