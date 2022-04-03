@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-.z-999{
+body {
+  font-family: "Poppins", sans-serif;
+}
+.z-999 {
   z-index: 9999;
 }
 .hero-shape-1-after::after {
@@ -56,16 +60,56 @@
 }
 .line-bg-dark {
   background-image: url("../public/assets/images/line_dark.svg");
-  /* background-repeat: no-repeat; */
-  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
   background-size: contain;
 }
-.how_work_bg{
-  background-image: url('../public/assets/images/how_work.png');
+.how_work_bg {
+  background-image: url("../public/assets/images/how_work.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   max-width: 554px;
   height: 312px;
-
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.team .slick-list {
+  max-width: 256px;
+  border-radius: 6px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #22c55e !important;
+}
+.slick-dots li button:before {
+  color: #22c55e !important;
+  content: "" !important;
+  width: 8px !important;
+  height: 8px !important;
+  background: #22c55e;
+  border-radius: 1px !important;
+}
+.para::before {
+  content: "";
+  background-image: url("../public/assets/images/quotation.svg");
+  width: 92.73px;
+  height: 64px;
+  position: absolute;
+  z-index: -1;
+  top: -43px;
+}
+.para::after {
+  content: "";
+  background-image: url("../public/assets/images/quotation.svg");
+  width: 92.73px;
+  height: 64px;
+  position: absolute;
+  z-index: -1;
+  bottom: -3px;
+  right: 0px;
+  transform: rotate(180deg);
 }

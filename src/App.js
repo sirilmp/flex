@@ -7,6 +7,11 @@ import HowWork from './components/HowWork'
 import LogoCloud from './components/LogoCloud'
 import Nav from './components/Nav'
 import Number from './components/Number'
+import Team from './components/Team'
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Testimonial from './components/Testimonial'
 
 const App = () => {
   return (
@@ -15,10 +20,12 @@ const App = () => {
       <Hero />
       <Features />
       <CTA />
-      <Number/>
-      <HowWork/>
-      <Application/>
-      <LogoCloud/>
+      <Number />
+      <HowWork />
+      <Application />
+      <LogoCloud />
+      <Team />
+      <Testimonial />
     </>
   )
 }
