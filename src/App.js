@@ -12,6 +12,7 @@ import Team from './components/Team'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Testimonial from './components/Testimonial'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <LogoCloud />
       <Team />
       <Testimonial />
+      <Contact />
     </>
   )
 }

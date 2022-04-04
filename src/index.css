@@ -52,18 +52,6 @@ body {
   top: 263px;
   left: -58px;
 }
-.line-bg {
-  background-image: url("../public/assets/images/line_light.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-.line-bg-dark {
-  background-image: url("../public/assets/images/line_dark.svg");
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: contain;
-}
 .how_work_bg {
   background-image: url("../public/assets/images/how_work.png");
   background-repeat: no-repeat;
@@ -112,4 +100,12 @@ body {
   bottom: -3px;
   right: 0px;
   transform: rotate(180deg);
+}
+.h-513{
+  height: 349px;
+}
+@media (min-width: 768px) {
+  .h-513{
+    height: 513px;
+  }
 }
