@@ -8,11 +8,12 @@ import LogoCloud from './components/LogoCloud'
 import Nav from './components/Nav'
 import Number from './components/Number'
 import Team from './components/Team'
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Testimonial from './components/Testimonial'
 import Contact from './components/Contact'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Footer from './components/Footer'
+
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Team />
       <Testimonial />
       <Contact />
+      <Footer/>
     </>
   )
 }
