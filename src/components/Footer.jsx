@@ -2,15 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='bg-white px-5 py-32 pb-2 lg:px-28'>
-            <div className='w-full grid lg:grid-cols-4 md:grid-cols-2 '>
+        <div className='bg-white px-5 py-32 pb-2 lg:px-28 relative'>
+            <div className='w-full grid lg:grid-cols-4 md:grid-cols-2 relative'>
                 <div className='flex flex-col md:max-w-xs mb-10 lg:mb-0'>
                     <img src="../assets/images/logo-dark.svg" alt="logo" className='w-24' />
                     <p className='text-sm mt-2 text-gray-500 font-normal'>Launch your own Software As A Service Application with Flex Solutions.</p>
                 </div>
                 <div className='lg:mx-5 mb-10 lg:mb-0 w-full'>
                     <h5 className='font-bold text-gray-900 mb-2'>Product</h5>
-                    <div className='text-sm w-full h-full font-medium leading-7 flex lg:flex-col flex-wrap justify-between items-center lg:items-start'>
+                    <div className='text-sm w-full h-full font-medium leading-7 flex lg:flex-col flex-wrap justify-between lg:justify-start items-center lg:items-start'>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Features</p>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Solutions</p>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Pricing</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div className='px-2 lg:mx-5 mb-10 lg:mb-0'>
                     <h5 className='font-bold text-gray-900 mb-2'>Remaining</h5>
-                    <div className='text-sm w-full h-full font-medium leading-7 flex lg:flex-col flex-wrap justify-between items-center lg:items-start'>
+                    <div className='text-sm w-full h-full font-medium leading-7 flex lg:flex-col flex-wrap justify-between lg:justify-start items-center lg:items-start'>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Blog</p>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Newsletter</p>
                         <p className='cursor-pointer hover:text-green-500 hover:font-semibold duration-200'>Help Center</p>
