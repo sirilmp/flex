@@ -47,7 +47,7 @@ const HowWork = () => {
                         <p className='max-w-2xl text-center md:text-left font-medium mx-auto mt-3 text-gray-600'>With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.</p>
                     </div>
                     <div className='w-full md:w-1/2 pl-3 how_work_bg flex justify-center items-center'>
-                        <img className='w-12 md:w-16 hover:rotate-90 transform duration-200 cursor-pointer hover:scale-110 hover:shadow-md rounded-full' src="../assets/images/play.svg" alt="play" />
+                        <img className='w-12 md:w-16 hover:rotate-90 transform duration-200 cursor-pointer hover:scale-110 hover:shadow-md rounded-full' src="../assets/images/Play.svg" alt="play" />
                     </div>
                     <div>
                     </div>
