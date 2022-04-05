@@ -1,10 +1,6 @@
 import React, { useState } from 'react'
 
-const Nav = () => {
-
-
-    const [menuOpen, setMenuOpen] = useState(false)
-
+const Nav = ({ menuOpen, setMenuOpen }) => {
     return (
         <div className='bg-gray-900 w-full px-5 md:px-2 py-5 shadow-md flex justify-between md:justify-around font-medium text-gray-300'>
             <div>
@@ -26,7 +22,7 @@ const Nav = () => {
                 }
             </div>
             {
-                menuOpen && <div className={`overflow-y-scroll min-h-min md:hidden absolute h-full bg-gray-900 px-3 py-6 left-0 top-0 transform duration-1000 w-72 z-999 ${!menuOpen && '-translate-y-60 transform duration-1000'}`}>
+                menuOpen && <div className={`overflow-y-scroll scrollbar-hide min-h-min md:hidden fixed h-full bg-gray-900 px-3 py-6 left-0 top-0 transform duration-1000 w-72 z-999 ${!menuOpen && '-translate-y-60 transform duration-1000'}`}>
                     <div className='flex flex-col h-full justify-between'>
                         <div className='flex justify-between mb-5'>
                             <img src="../assets/images/Logo.svg" alt="" />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Application from './components/Application'
 import CTA from './components/CTA'
 import Features from './components/Features'
@@ -16,10 +16,21 @@ import Footer from './components/Footer'
 
 
 const App = () => {
+
+  const [menuOpen,setMenuOpen]=useState(false)
+
+  if(menuOpen){
+    document.body.style.overflowY = "hidden"
+  }else{
+    document.body.style.overflowY = "scroll"
+  }
+
+
   return (
     <>
-      <Nav />
-      <Hero />
+      <Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+    <div className=''>
+    <Hero />
       <Features />
       <CTA />
       <Number />
@@ -30,6 +41,7 @@ const App = () => {
       <Testimonial />
       <Contact />
       <Footer/>
+    </div>
     </>
   )
 }
